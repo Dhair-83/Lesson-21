@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><center>Loops in JS</center></h2>
+    <p id="loop" style="color:gold; font-family: Georgia, 'Times New Roman', Times, serif; font-size: medium; text-decoration: line-through;"></p>
+    <script>
+        var cars=['mercedes-benz','jaguar','audi','mahindra','tata','nissan','dodge']
+        var text=""
+        var i;
+        for(i=0;i<cars.length;i++)
+    {
+        text+=cars[i] + "<br>";
+    }
+    document.getElementById("loop").innerHTML=text;
+    </script>
+</body>
+</html>
